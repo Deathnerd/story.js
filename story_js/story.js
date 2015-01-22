@@ -1,27 +1,8 @@
-String.prototype.has = function(foo){
-	return this.indexOf(foo) != -1;
-};
+var cookie = new Cookie();
 
-Cookie = {
+var Story = new Class({
 
-	init: function(){
-
-	},
-
-	data: {
-
-	},
-	save: function(){
-
-	}
-};
-
-
-Story = {
-
-	cookie: "",
-
-    init: function(){
+    create: function(){
         //load the cookie
         this.cookie = document.cookie;
 
@@ -57,4 +38,4 @@ Story = {
 	_buildCookie: function(){
 
 	}
-};
+});
