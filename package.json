@@ -1,0 +1,13 @@
+{
+  "name": "story.js",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-closure-compiler": "^0.2.16",
+    "gulp-replace": "^0.5.2",
+    "gulp-shell": "^0.2.11",
+    "gulp-uglify": "^1.1.0",
+    "gulp-usemin": "^0.3.11",
+    "jquery": "^2.1.3"
+  }
+}
