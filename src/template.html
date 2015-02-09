@@ -11,13 +11,28 @@
     <!-- endbuild -->
 </head>
 <body>
+
+<!-- Audio track. Delete if no audio track is needed -->
+<audio src="path/to/audio.mp3" autoplay loop>
+    <!-- This will display if and only if the browser does not support the audio tag -->
+    <!-- Visit the following link to see if your browser supports media tags like audio and video -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#Browser_compatibility -->
+    Your browser does not support the <code>audio</code> tag. Please consider using a more modern browser for the full experience
+</audio>
+<!-- End audio track -->
+
+<!-- input buttons -->
 <input value="Save" id="save_button" type="button"/>
 <input value="Load" id="load_button" type="button"/>
+<!-- end input buttons -->
 
+<!-- image map -->
 <img src="path/to/image/here" width="1280" height="720" usemap="#story" alt=""/>
 <map name="story">
     <area shape="rect" coords="0,0,1280,720" href="nextpage.html" alt="">
 </map>
+<!-- end image map -->
+
 
 </body>
 </html>
